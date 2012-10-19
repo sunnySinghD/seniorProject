@@ -1,0 +1,9 @@
+MSYS-1.0.12 Build:2011-07-20 17:52
+Exception: STATUS_ACCESS_VIOLATION at eip=00667948
+eax=00000001 ebx=0028F804 ecx=006DDB68 edx=00360000 esi=0028F808 edi=00000000
+ebp=0028F7DC esp=0028F664 program=C:\Users\Sunny\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin\sh.exe
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028F7DC  00667948  (74FF7262, 0028F830, 0028F7FC, 74FF7F0D)
+End of stack trace

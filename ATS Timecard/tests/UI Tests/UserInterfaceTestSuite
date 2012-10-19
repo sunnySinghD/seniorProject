@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="GenericUserAbout">GenericUserAbout</a></td></tr>
+<tr><td><a href="GenericUserContact">GenericUserContact</a></td></tr>
+<tr><td><a href="StudentLogin">StudentLogin</a></td></tr>
+<tr><td><a href="StudentLogEditHours">StudentLogEditHours</a></td></tr>
+<tr><td><a href="StudentLogout">StudentLogout</a></td></tr>
+<tr><td><a href="AdminNavigation">AdminNavigation</a></td></tr>
+<tr><td><a href="AdminAddUser">AdminAddUser</a></td></tr>
+<tr><td><a href="AdminEditUser">AdminEditUser</a></td></tr>
+<tr><td><a href="AdminRemoveUser">AdminRemoveUser</a></td></tr>
+<tr><td><a href="AdminAddTask">AdminAddTask</a></td></tr>
+<tr><td><a href="AdminLogout">AdminLogout</a></td></tr>
+</tbody></table>
+</body>
+</html>

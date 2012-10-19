@@ -1,0 +1,287 @@
+* {margin:0;padding:0;} 
+
+html {
+height:100%;
+text-align:left;
+}
+
+body {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+background-color:white;//#f1f1f1;
+color:#333;
+height:100%;
+}
+
+#container {
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+width:auto;
+min-height:100%;
+text-align:left;
+/*background:url(images/sealbackground.png) no-repeat;*/
+background-position:0 78px;
+}
+
+#header {
+width:auto;
+height:60px;
+border-bottom:1px solid black;
+border-top:1px solid #ccc;
+background: url(images/banner.jpg) no-repeat;
+background-color:#002664; 
+}
+
+#header h2 {
+padding-top:40px;
+}
+
+#header p {
+padding-right:5px;
+}
+
+#nav {
+width:auto;
+height:18px;
+border-top:1px solid black;
+border-bottom:1px solid black;
+background-color:#ffd200;
+padding-bottom:2px;
+}
+
+#nav a {
+display:inline;
+padding-right:10px;
+padding-left:10px;
+text-decoration:none;
+color: #039;
+font-size:15px;
+border-left:1px solid #ffd200;
+border-right:1px solid #ffd200;
+}
+
+#nav a:hover {
+border-bottom:none;
+//background:#bababa;
+//padding-top:1px; 
+//border:1px solid black;
+}
+
+#nav a:visited {
+color: #039;
+}
+
+#nav a:active {
+text-decoration: none;
+}
+
+#nav a span {
+position : absolute;
+top : -9000px;
+left : -9000px;
+display : block;
+width : auto;
+height : 18px;
+background : #fafafa;
+border : 1px solid black;
+padding-left : 10px;
+padding-right: 15px;
+cursor : pointer; /* needed for opera */
+color : #cc9900;
+}
+
+/*re-postion the span on hover/focus */
+#nav a:hover span, #nav a:focus span, #nav a:active span {
+top : 85px;
+left : 1px;
+}
+
+#currentPage a {
+background-color:#bababa;
+height:80px;
+}
+
+#content {
+width:98%;
+float:left;
+padding:10px;
+}
+
+#content h3 {
+padding-top:25px;
+padding-bottom:15px;
+}
+
+#main {
+width:100%;
+overflow:auto;
+padding-bottom:61px;
+}
+
+#footer {;
+position:relative;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+background-color:#f8f8f8;
+width: auto;
+margin-top:-61px;
+height:60px;
+clear:both;
+border-top:1px solid #ccc;
+}
+
+#footer p {
+padding-left:10px;
+padding-top:10px;
+}
+
+select {
+width:150px;
+}
+
+input {
+padding-left:2px;
+padding-right:2px;
+}
+
+/* link styles */
+
+a:link {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+text-decoration: none;
+color: #039;
+}
+
+a:visited {
+text-decoration: none;
+color: #039;
+}
+
+a:active {
+text-decoration: none;
+}
+
+a:hover {
+border-bottom: 1px dashed;
+}
+
+/* table styles */
+
+table {
+width:500px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+margin: auto;
+text-align: center;
+border-collapse: collapse;
+border: 1px solid #b9c9fe;
+}
+
+table th {
+padding: 12px 17px 12px 17px;
+font-weight: normal;
+font-size: 14px;
+color: #039;
+background: #ededfc;//#b9c9fe;
+//border: 1px solid #b9c9fe;//white;
+border-bottom: 1px solid #b9c9fe;//black;
+}
+
+table td {
+padding: 7px 17px 7px 17px;
+color: #669;
+//background: #e8edff;
+border: 1px dashed #b9c9fe;//white;
+}
+
+#table-view {
+width:600px;
+text-align: left;
+}
+
+#table-view tbody tr:hover td  {
+color: #339;
+background: #ededfc;//#d0dafd;
+}
+
+#table-clear {
+width:100%;
+border:0;
+background: white;
+}
+
+#table-clear th {
+border:0;
+background: white;
+}
+
+#table-clear td {
+border:0;
+background: white;
+}
+
+#table-open {
+
+}
+
+#table-approved {
+width:600px;
+text-align:left;
+border:1px solid green;
+}
+
+#table-approved tbody tr:hover td  {
+background: #caffb5;
+}
+
+#table-approved th {
+color:green;
+border-bottom:1px solid green;
+background:#caffb5;
+}
+
+#table-approved td {
+color:green;
+border:1px dashed green;
+}
+
+#table-rejected {
+width:600px;
+text-align:left;
+border:1px solid red;
+}
+
+#table-rejected tbody tr:hover td  {
+background: #ffd6d6;
+}
+
+#table-rejected th {
+color:red;
+border-bottom:1px solid red;
+background:#ffd6d6;
+}
+
+#table-rejected td {
+color:red;
+border:1px dashed red;
+}
+
+#table-submitted {
+width:600px;
+text-align:left;
+border:1px solid gray;
+}
+
+#table-submitted tbody tr:hover td  {
+background: #ebebeb;
+}
+
+#table-submitted th {
+color:gray;
+border-bottom:1px solid gray;
+background:#ebebeb;
+}
+
+#table-submitted td {
+color:gray;
+border:1px dashed gray;
+}
